@@ -19,6 +19,7 @@
     CP[Cumberland<br>Presbytery]
     CPC[Cumberland<br>Presbyterian<br>Church]
     CS[Cumberland<br>Synod]
+    ECO[A Covenant<br>Order of<br>Evangelical<br>Presbyterians]
     EPC[Evangelical<br>Presbyterian<br>Church]
     FP[First<br>Presbytery<br>1706]
     FPC[Free<br>Presbyterian<br>Church]
@@ -43,7 +44,6 @@
     UPCUSA[United<br>Presbyterian<br>Church in the<br>U.S.A.]
     USS[United<br>Synod of<br>the South]
     WMC[Welsh<br>Methodist<br>Church<br>1750]
-    ECO[A Covenant<br>Order of<br>Evangelical<br>Presbyterians]
   
   %% Flow
     FP-->|1741| OS & NS
@@ -82,11 +82,5 @@
     RPES-->|1982| PCA
     PCUS & UPCUSA-->|1983| PUSA
     PUSA-->|2012| ECO
-    OPC-.->|present| Z([Continuing])
-    BPC-.->|present| Z
-    CPC-.->|present| Z
-    CCPC-.->|present| Z
-    PUSA-.->|present| Z
-    ARSS-.->|present| Z
-    OL-.->|present| Z
+    OPC & PCA & BPC & ECO & CPC & CCPC & PUSA & ARSS & OL -.->|present| Z([Continuing])
     click OPC "https://opc.org/" "This is a link" _blank
