@@ -5,7 +5,7 @@
   flowchart LR
   
   %% styles
-  style Z stroke:#333,stroke-width:4px,color:#1feb05,stroke-dasharray: 5 5
+  style Z stroke-width:2px,stroke-dasharray: 5 5
   
   %% Denoms,Sides,Synods, etc.
     AP[Associate<br>Presbytery]
