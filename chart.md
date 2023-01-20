@@ -1,5 +1,4 @@
-# presby-denoms
-Presbyterian Denominational History Chart
+# Presbyterian Denominational History Chart
 
 ```mermaid
   flowchart LR
