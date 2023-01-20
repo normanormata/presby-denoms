@@ -1,7 +1,11 @@
 # Presbyterian Denominational History Chart
 
 ```mermaid
+  %%{ init : { "theme" : "dark", "flowchart" : { "curve" : "basis" }}}%%
   flowchart LR
+  
+  %% styles
+  style Z stroke:#333,stroke-width:4px,color:#1feb05,stroke-dasharray: 5 5
   
   %% Denoms,Sides,Synods, etc.
     AP[Associate<br>Presbytery]
@@ -78,11 +82,11 @@
     RPES-->|1982| PCA
     PCUS & UPCUSA-->|1983| PUSA
     PUSA-->|2012| ECO
-    %%OPC-.->|present| Z(Continuing)
-    %%BPC-.->|present|Z
-    %%CPC-.->|present|Z
-    %%CCPC-.->|present|Z
-    %%PUSA-.->|present|Z
-    %%ARSS-.->|present|Z
-    %%OL-.->|present|Z
+    OPC-.->|present| Z([Continuing])
+    BPC-.->|present| Z
+    CPC-.->|present| Z
+    CCPC-.->|present| Z
+    PUSA-.->|present| Z
+    ARSS-.->|present| Z
+    OL-.->|present| Z
     click OPC "https://opc.org/" "This is a link" _blank
