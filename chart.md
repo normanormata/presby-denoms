@@ -7,8 +7,8 @@
   %% styles
   style Z stroke-width:2px,stroke-dasharray: 5 5
   
-  %% Denoms,Sides,Synods, etc.
-    AP[Associate<br>Presbytery]
+  %% Denoms, Sides, Synods, etc.
+    AP[Associate<br>Presbytery<br>Seceders]
     ARPC[Associate<br>Reformed<br>Presbyterian<br>Church]
     ARSS[Associate<br>Reformed<br>Synod of<br>the South]
     ASNA[Associate Synod<br>of North America]
@@ -35,7 +35,7 @@
     PCUS[Presbyterian<br>Church in the<br>U.S.]
     PCUSA[Presbyterian<br>Church in the<br>U.S.A.]
     PUSA[Presbyterian<br>Church<br>U.S.A.]
-    RP[Reformed<br>Presbytery]
+    RP[Reformed<br>Presbytery<br>Covenanters]
     %%RPCNA[Reformed<br>Presbyterian<br>Church in<br>North America]
     RPES[Reformed<br>Presbyterian<br>Evangelical<br>Synod]
     %%RSNA[Reformed<br>Synod of<br>North<br>America]
