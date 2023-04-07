@@ -39,6 +39,8 @@
     %%RPCNA[Reformed<br>Presbyterian<br>Church in<br>North America]
     RPES[Reformed<br>Presbyterian<br>Evangelical<br>Synod]
     %%RSNA[Reformed<br>Synod of<br>North<br>America]
+    SP[Synod<br>of PA]
+    SNY[Synod<br>of NY]
     SNYP[Synod of<br>NY & PA]
     UPCNA[The United<br>Presbyterian<br>Church of<br>North America]
     UPCUSA[United<br>Presbyterian<br>Church in the<br>U.S.A.]
@@ -47,8 +49,10 @@
   
   %% Flow
     FP-->|1741| OS & NS
+    NS-->|1745| SNY
+    OS-->|1745| SP
     COS-->|1753| AP
-    OS & NS -->|1758| SNYP
+    SNY & SP -->|1758| SNYP
     COS-->|1774|RP
     AP & RP-->|1782| ARPC
     SNYP-->|1789|PCUSA
